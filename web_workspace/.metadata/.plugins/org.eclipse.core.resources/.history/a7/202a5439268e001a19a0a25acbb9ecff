@@ -1,0 +1,18 @@
+package thread_ex;
+
+import java.io.BufferedReader;
+import java.net.Socket;
+import java.util.HashMap;
+
+public class ChatThread extends Thread{
+	private Socket sock;
+	private String id;
+	private BufferedReader br;
+	private HashMap<String, Object> hm;
+	private boolean initFlag = false;
+	
+	public ChatThread(Socket sock, HashMap<String, Object> hm) {
+		this.sock = sock;
+		this.hm = hm;
+	}
+}

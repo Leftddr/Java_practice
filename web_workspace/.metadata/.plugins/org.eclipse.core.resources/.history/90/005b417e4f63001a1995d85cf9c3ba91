@@ -1,0 +1,57 @@
+import java.util.Scanner;
+
+public class test_1137 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		String input = sc.nextLine();
+		
+		char[][] map = {
+			{'#', '#', '#', '#', '#', '#', '#', '#'},
+			{'#', '.', '.', '.', '.', '.', '.', '#'},
+			{'#', '.', 'Y', '.', '.', '.', '.', '#'},
+			{'#', '.', 'F', '.', '#', '.', '.', '#'},
+			{'#', '.', '.', '.', 'X', '.', '.', '#'},
+			{'#', '.', '.', '.', '#', '.', '.', '#'},
+			{'#', '.', '.', '.', '.', '.', '.', '#'},
+			{'#', '#', '#', '#', '#', '#', '#', '#'}
+		};
+		
+		int[][] min_pos = new int[2][2];
+		
+		for(int i = 0 ; i < map.length; i++) {
+			for(int j = 0 ; j < map[i].length ; j++) {
+				if(map[i][j] == 'Y') {
+					min_pos[0][0] = i;
+					min_pos[0][1] = j;
+				}
+				else if(map[i][j] == 'F') {
+					min_pos[1][0] = i;
+					min_pos[1][1] = j;
+				}
+			}
+		}
+		
+		for(int i = 0 ; i < input.length(); i++) {
+			{
+				if(input.charAt(i) == 'S') {
+					
+				}
+				else if(input.charAt(i) == 'E') {
+					
+				}
+				else if(input.charAt(i) == 'W') {
+					
+				}
+				else if(input.charAt(i) == 'N') {
+					
+				}
+			}
+		}
+		
+		
+	}
+
+}

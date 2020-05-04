@@ -1,0 +1,15 @@
+import javax.swing.JFrame;
+
+public class example {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JFrame f=new JFrame("Example 1");
+		f.setSize(400,330);
+		f.setLocation(500,200);
+		
+		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		f.setVisible(true);
+	}
+
+}

@@ -1,0 +1,16 @@
+package reflection;
+
+import java.lang.reflect.Constructor;
+
+public class reflection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Class<?> clazz = String.class;
+		try {
+			Constructor<?> c1 = clazz.getConstructor();
+		}
+
+	}
+
+}

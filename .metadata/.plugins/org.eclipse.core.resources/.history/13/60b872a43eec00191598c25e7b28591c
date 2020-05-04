@@ -1,0 +1,10 @@
+import java.awt.GridLayout;
+
+import javax.swing.JPanel;
+
+public class Myframe2 extends JPanel {
+	public Myframe2() {
+		setLayout(new GridLayout(3,3));
+	}
+
+}

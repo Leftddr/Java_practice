@@ -1,0 +1,17 @@
+package study1;
+
+import java.util.Scanner;
+
+public class study1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		scan.useDelimiter("/");
+		while(scan.hasNext()) {
+			System.out.println(scan.next());
+		}
+		scan.close();
+	}
+
+}

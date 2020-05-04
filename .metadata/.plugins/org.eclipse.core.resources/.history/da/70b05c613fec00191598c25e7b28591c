@@ -1,0 +1,17 @@
+import javax.swing.JFrame;
+
+public class example {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Myframe frame=new Myframe();
+		Myframe2 frame2=new Myframe2();
+		Myframe3 frame3=new Myframe3();
+		for(int i=0;i<10;i++) {
+			frame2.add(frame3.bt[i]);
+		}
+		frame.setContentPane(frame2);
+		frame.setVisible(true);
+	}
+
+}
